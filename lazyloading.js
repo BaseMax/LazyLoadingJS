@@ -19,8 +19,7 @@ const LazyLoading = (parameters) => {
 
     imgs.forEach((img) => {
         observer.observe(img);
-    }
-    );
+    });
 
     return {
         observer: observer,

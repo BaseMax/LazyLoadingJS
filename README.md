@@ -18,7 +18,7 @@ Pure Javascript without Jquery or extra code.
 <script type="text/javascript">
 var lazyloading = LazyLoading({
     'selector': 'img',
-    'attribute': 'data-src',
+    'attribute': 'data-src'
 });
 </script>
 ```
@@ -37,7 +37,7 @@ document.querySelectorAll("img").forEach(img => {
 
 var lazyloading = LazyLoading({
     'selector': 'img',
-    'attribute': 'data-src',
+    'attribute': 'data-src'
 });
 </script>
 ```

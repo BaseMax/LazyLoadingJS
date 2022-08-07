@@ -8,7 +8,7 @@ const LazyLoading = (parameters) => {
             if (entry.isIntersecting) {
                 const img = entry.target;
                 const attr = img.getAttribute(attribute);
-                if (attr !== nul) {
+                if (attr !== null) {
                     img.src = attr;
                 }
                 observer.unobserve(img);

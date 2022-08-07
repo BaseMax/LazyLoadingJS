@@ -1,8 +1,8 @@
 # Lazy Loading JS
 
-Most Lazy Loading libraries have you to change src to data-src and use a fake/empty image in src. But this library can provide Lazy Loading feature without changing your image elements or document.
+Most Lazy loading libraries force you to change `src` to `data-src` and use a fake/empty image in `src`. But this library can provide a **Lazy Loading feature** without changing your image or document elements.
 
-Pure Javascript without Jquery or extra code.
+Pure Javascript without JQuery or extra code.
 
 **Demo:** https://basemax.github.io/LazyLoadingJS/
 

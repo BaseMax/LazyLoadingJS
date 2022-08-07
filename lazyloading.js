@@ -7,7 +7,10 @@ const LazyLoading = (parameters) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 const img = entry.target;
-                img.src = img.getAttribute(attribute);
+                const attr = img.getAttribute(attribute);
+                if (attr !== nul) {
+                    img.src = attr;
+                }
                 observer.unobserve(img);
             }
         });

@@ -41,3 +41,5 @@ var lazyloading = LazyLoading({
 });
 </script>
 ```
+
+© Copyright Max Base, 2022

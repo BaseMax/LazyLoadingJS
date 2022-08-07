@@ -38,7 +38,6 @@ document.querySelectorAll("img").forEach(img => {
 var lazyloading = LazyLoading({
     'selector': 'img',
     'attribute': 'data-src',
-    // 'attribute': 'src',
 });
 </script>
 ```
